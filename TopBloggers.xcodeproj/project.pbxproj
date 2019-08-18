@@ -13,6 +13,8 @@
 		88006FE622FA2F96008D2ADB /* TopBloggers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88006FE422FA2F96008D2ADB /* TopBloggers.xcdatamodeld */; };
 		88006FE822FA2F98008D2ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88006FE722FA2F98008D2ADB /* Assets.xcassets */; };
 		88006FEB22FA2F98008D2ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88006FE922FA2F98008D2ADB /* LaunchScreen.storyboard */; };
+		881FA8DF2305F535005F9754 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FA8DE2305F535005F9754 /* TableTableViewController.swift */; };
+		8840857D2306693600625A8C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8840857C2306693600625A8C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		88006FE722FA2F98008D2ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88006FEA22FA2F98008D2ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88006FEC22FA2F98008D2ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881FA8DE2305F535005F9754 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		8840857C2306693600625A8C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8840857D2306693600625A8C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				88006FDC22FA2F96008D2ADB /* TopBloggers */,
 				88006FDB22FA2F96008D2ADB /* Products */,
+				8840857B2306693600625A8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +65,21 @@
 				88006FDD22FA2F96008D2ADB /* AppDelegate.swift */,
 				88006FDF22FA2F96008D2ADB /* ViewController.swift */,
 				88006FE122FA2F96008D2ADB /* Main.storyboard */,
+				881FA8DE2305F535005F9754 /* TableTableViewController.swift */,
 				88006FE722FA2F98008D2ADB /* Assets.xcassets */,
 				88006FE922FA2F98008D2ADB /* LaunchScreen.storyboard */,
 				88006FEC22FA2F98008D2ADB /* Info.plist */,
 				88006FE422FA2F96008D2ADB /* TopBloggers.xcdatamodeld */,
 			);
 			path = TopBloggers;
+			sourceTree = "<group>";
+		};
+		8840857B2306693600625A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8840857C2306693600625A8C /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881FA8DF2305F535005F9754 /* TableTableViewController.swift in Sources */,
 				88006FE022FA2F96008D2ADB /* ViewController.swift in Sources */,
 				88006FE622FA2F96008D2ADB /* TopBloggers.xcdatamodeld in Sources */,
 				88006FDE22FA2F96008D2ADB /* AppDelegate.swift in Sources */,
